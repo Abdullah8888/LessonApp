@@ -2,6 +2,8 @@ LessonApp
 
 Thought process and architectural decisions
 
+     The architecture used in this project is MVVM. Check the image below to have a full description of the app.   
+
 Pods used
  
   ReachabilitySwift :- This was used to track network connection
