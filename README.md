@@ -1,10 +1,10 @@
-LessonApp
+### LessonApp
 
 Thought process and architectural decisions
 
      The architecture used in this project is MVVM. Check the image below to have a full description of the app.   
 
-Pods used
+## Pods used
  
   ReachabilitySwift :- This was used to track network connection
 
@@ -14,6 +14,6 @@ Pods used
 
   SwiftyJSON :- This was used to format json object
 
-Note
+## Note
 
   AVPlayer was used in place of Exoplayer
