@@ -32,7 +32,6 @@ class MainViewController: GenericViewController, MainViewModelDelegate, UICollec
         self.videosTableView?.delegate = self
         self.viewModel.registerReusableViewsForTableView(tableView: self.videosTableView!)
         self.subjectCollectionView?.collectionViewLayout = self.getLayout()
-        //PersistenceManager.sharedManager.clearVideoData()
     }
     
     func MainViewModelDidChangeState(state: MainViewModelState) {
