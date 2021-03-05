@@ -28,7 +28,6 @@ class GenericViewController: UIViewController {
             UIApplication.shared.statusBarView?.alpha = 0.2
             
          }
-        //setNeedsStatusBarAppearanceUpdate()
         
     }
     
@@ -71,6 +70,11 @@ class GenericViewController: UIViewController {
             return
         }))
         self.present(confimationAlert, animated: true, completion: nil)
+    }
+    
+    //MARK: DropDownAlert
+    public func displayDropDownAlertWithTitle(title: String, message: String, error: Bool) {
+        RKDropdownAlert.title(title, message: message, backgroundColor: error ? UIColor.init(named: "f05858") : UIColor.init(named: "66bb6a"), textColor: UIColor.white, time: 2)
     }
     
 }

@@ -8,20 +8,8 @@
 
 import Foundation
 
-
-enum VideoPlayerViewModelState {
-    case VideoPlayerViewModelDidDownloadVideo
-    case VideoPlayerViewModelDidDownloadVideoFails
-}
-
-protocol VideoPlayerViewModelDelegate: class {
-    func VideoPlayerViewModelDidChangeState(state: VideoPlayerViewModelState)
-}
-
-class VideoPlayerViewModel: NSObject, URLSessionDelegate {
+class VideoPlayerViewModel: NSObject {
     
-    
-    var delegate: VideoPlayerViewModelDelegate?
     private var networkService : NetworkService = NetworkService.sharedManager
     
     func downloadVideo(videoUrl: String, urlSessionDelegate: URLSessionDelegate) {
