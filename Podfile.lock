@@ -1,0 +1,36 @@
+PODS:
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - ReachabilitySwift (5.0.0)
+  - RKDropdownAlert (0.3.0)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - MagicalRecord (~> 2.3)
+  - ReachabilitySwift
+  - RKDropdownAlert (~> 0.3)
+  - SDWebImage (~> 4.0)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - MagicalRecord
+    - ReachabilitySwift
+    - RKDropdownAlert
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RKDropdownAlert: f4b3364c251829ad439dc666836a1f2dad26f4c7
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: b5ad9a3404d9d8cf04a4e72c79269ea969c377ef
+
+COCOAPODS: 1.10.0
